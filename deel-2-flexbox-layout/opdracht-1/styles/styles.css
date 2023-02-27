@@ -1,1 +1,35 @@
 /*Schrijf hier jouw CSS*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    flex: 0 0 15vh;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex: 1 0 auto;
+}
+
+article {
+    order: 1;
+    flex: 1 1 80vh;
+}
+aside {
+    order: 2;
+    flex: 1 1 10vh;
+}
+nav {
+    order: 3;
+    flex: 1 1 10vh;
+}
+
+footer {
+    flex: 0 0 15vh;
+}
